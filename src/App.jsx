@@ -1,4 +1,9 @@
-export let Greet = ()=>{
-  return <h1>Hello</h1>
+import { WelcomeMessage } from "./mainComponent"
+
+const App = ()=>{
+  return <WelcomeMessage/>
 }
 
+// createRoot(document.getElementById('root')).render(<WelcomeMessage/>)
+
+export default App
