@@ -1,0 +1,1 @@
+Learnt in detail about breaking things into components did various exercises on breaking the UI into small components will continue learning props now

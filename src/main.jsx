@@ -11,16 +11,20 @@ import App from './App.jsx';
 import { JSxXRules } from "../exercises/exercise-2/JSXRules.jsx";
 import { ShowExpressions } from "../exercises/exercise-2/expressions.jsx";
 import { AddElementsToDOM, ShowUserInfo } from "../exercises/exercise-2/refresh.jsx";
+import { UserList } from "../exercises/exercise-2/render.jsx";
+import { Expressions } from "../exercises/exercise-2/App.jsx";
+import { PropsApp } from "./props/intro.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <Header />
     <MainContent />
     <Footer /> */}
 
-    <App/>
+    {/* <App/>
     <JSxXRules/>
     <ShowExpressions/>
     <AddElementsToDOM/>
-    <ShowUserInfo/>
+    <Expressions/> */}
+    <PropsApp/>
   </StrictMode>,
 );

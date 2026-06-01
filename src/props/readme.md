@@ -1,0 +1,1 @@
+props are nothing just arguments or a parameters passed to a function here a component  will be a parent data will be used by a child component ,props must be passed like html attributes(html attributes are props)

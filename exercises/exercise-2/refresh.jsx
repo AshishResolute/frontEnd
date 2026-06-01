@@ -16,15 +16,11 @@ export const ShowUserInfo = ()=>{
 
     return (
         <>
-        {users.map((user,index)=>(
-           <ul key={index}>
-            {Object.entries(user).map(([key,value])=>(
-                (<li key={key}>
-                    {key+':'+value}
-                </li>)
-            ))}
-           </ul>
+       <ul>
+        {users.map((user,ind)=>(
+            <li key={ind}><strong>{user.name}</strong>-Age:{user.age}</li>
         ))}
+       </ul>
         </>
 
     )
