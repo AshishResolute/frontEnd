@@ -10,6 +10,7 @@ import { createRoot } from "react-dom/client";
 import App from './App.jsx';
 import { JSxXRules } from "../exercises/exercise-2/JSXRules.jsx";
 import { ShowExpressions } from "../exercises/exercise-2/expressions.jsx";
+import { AddElementsToDOM, ShowUserInfo } from "../exercises/exercise-2/refresh.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <Header />
@@ -19,5 +20,7 @@ createRoot(document.getElementById("root")).render(
     <App/>
     <JSxXRules/>
     <ShowExpressions/>
+    <AddElementsToDOM/>
+    <ShowUserInfo/>
   </StrictMode>,
 );
