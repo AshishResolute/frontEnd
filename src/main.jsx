@@ -14,7 +14,9 @@ import { AddElementsToDOM, ShowUserInfo } from "../exercises/exercise-2/refresh.
 import { UserList } from "../exercises/exercise-2/render.jsx";
 import { Expressions } from "../exercises/exercise-2/App.jsx";
 import { PropsApp } from "./props/intro.jsx";
-import { App } from "./props/exercises/App.jsx";
+// import { App } from "./props/exercises/App.jsx";
+// import {App} from '../src/props/conditionalComponents/App.jsx'
+import {App} from '../src/useState/App.jsx'
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <Header />
@@ -27,6 +29,7 @@ createRoot(document.getElementById("root")).render(
     <AddElementsToDOM/>
     <Expressions/> */}
     {/* <PropsApp/> */}
-    <App/>
+    {/* <App/> */}
+    <App />
   </StrictMode>,
 );
