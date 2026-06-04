@@ -1,5 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import './style.css'
 // import './index.css'
 // import { Greet } from "./App.jsx";
 // import Add from "./components/add.jsx";
@@ -16,7 +17,8 @@ import { Expressions } from "../exercises/exercise-2/App.jsx";
 import { PropsApp } from "./props/intro.jsx";
 // import { App } from "./props/exercises/App.jsx";
 // import {App} from '../src/props/conditionalComponents/App.jsx'
-import {App} from '../src/useState/App.jsx'
+import {App,UpdateArr} from '../src/useState/App.jsx'
+import {TrafficSignal} from '../src/useState/exercise.jsx'
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <Header />
@@ -30,6 +32,8 @@ createRoot(document.getElementById("root")).render(
     <Expressions/> */}
     {/* <PropsApp/> */}
     {/* <App/> */}
-    <App />
+    {/* <App /> */}
+    {/* <UpdateArr/> */}
+    <TrafficSignal/>
   </StrictMode>,
 );
