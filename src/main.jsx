@@ -18,7 +18,8 @@ import { PropsApp } from "./props/intro.jsx";
 // import { App } from "./props/exercises/App.jsx";
 // import {App} from '../src/props/conditionalComponents/App.jsx'
 import {App,UpdateArr} from '../src/useState/App.jsx'
-import {TrafficSignal} from '../src/useState/exercise.jsx'
+// import {TrafficSignal} from '../src/useState/exercise.jsx'
+import {ShoppingCart} from '../src/useState/ShoppingCart.jsx'
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <Header />
@@ -34,6 +35,7 @@ createRoot(document.getElementById("root")).render(
     {/* <App/> */}
     {/* <App /> */}
     {/* <UpdateArr/> */}
-    <TrafficSignal/>
+    {/* <TrafficSignal/> */}
+    <ShoppingCart/>
   </StrictMode>,
 );
