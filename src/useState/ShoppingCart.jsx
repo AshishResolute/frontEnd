@@ -59,6 +59,9 @@ export const ShoppingCart = ()=>{
   )
 }
 
+// this learnt key must be given only for elements that are dynamically created not for static elements
+// using functional updater pattern to change state
+
                 // prev Code too much mess cleaned it and also learnt how to share state and change it,by mistake also caused an infinte loop by mistake as i ran the onClick setCartItems() , i have to wrap it in a function 
  // export const ShoppingCart = () => {
 //   // const [items,setItems]=useState([{},{},{},{}])
